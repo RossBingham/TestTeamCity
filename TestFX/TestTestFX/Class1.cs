@@ -14,8 +14,6 @@ namespace TestTestFX
         public void TestResource()
         {
             TestFX.TestFXResource.GetTestFxResourceString();
-            TestFX.Class2.TestFailure();
-            TestFX.Class3.TestFailure();
 
             Assert.IsFalse(false);
         }
