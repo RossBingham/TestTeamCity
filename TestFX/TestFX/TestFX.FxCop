@@ -45,12 +45,7 @@
     <Modules>
      <Module Name="testfx.dll">
       <Messages>
-       <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Created="2014-01-03 20:35:06Z">
-        <Issue>
-         <Item>'TestFX.dll'</Item>
-        </Issue>
-       </Message>
-       <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Excluded" Created="2014-01-03 20:35:06Z">
+       <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Created="2014-01-03 20:35:06Z">
         <Issue Name="NoStrongName">
          <Item>'TestFX.dll'</Item>
         </Issue>
@@ -59,6 +54,11 @@
           <Note Id="0" />
          </User>
         </Notes>
+       </Message>
+       <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Created="2014-01-03 20:35:06Z">
+        <Issue>
+         <Item>'TestFX.dll'</Item>
+        </Issue>
        </Message>
       </Messages>
       <Namespaces>
