@@ -8,7 +8,7 @@ namespace TestFX
 {
     public class TestFXResource
     {
-        public string GetTestFxResourceString()
+        public static string GetTestFxResourceString()
         {
             return "Hello World";
         }

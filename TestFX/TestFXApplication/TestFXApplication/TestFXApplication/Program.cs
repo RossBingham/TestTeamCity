@@ -10,6 +10,9 @@ namespace TestFXApplication
     {
         static void Main(string[] args)
         {
+            Console.WriteLine( TestFX.TestFXResource.GetTestFxResourceString());
+            Console.WriteLine( "Press any key to continue. ");
+            Console.ReadKey();
         }
     }
 }
