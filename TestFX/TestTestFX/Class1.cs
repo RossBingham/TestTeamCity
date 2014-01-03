@@ -13,6 +13,8 @@ namespace TestTestFX
         [Test]
         public void TestResource()
         {
+            TestFX.TestFXResource.GetTestFxResourceString();
+
             Assert.IsFalse(false);
         }
     }
