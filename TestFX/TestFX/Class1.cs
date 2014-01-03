@@ -10,7 +10,7 @@ namespace TestFX
     {
         public static string GetTestFxResourceString()
         {
-            return "Hello World";
+            return "Hello World!";
         }
     }
 }
