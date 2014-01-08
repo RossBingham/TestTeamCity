@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using System;
 
 namespace TestTestFX
 {
@@ -9,12 +8,8 @@ namespace TestTestFX
         [Test]
         public void TestResource()
         {
-            string myTESTString = TestFX.TestFXResource.GetTestFxResourceString();
+            TestFX.TestFXResource.GetTestFxResourceString();
 
-            if (System.String.CompareOrdinal(myTESTString, "Hello World!") == 0)
-            {
-                Assert.IsFalse(true);
-            }
             Assert.IsFalse(false);
         }
     }
