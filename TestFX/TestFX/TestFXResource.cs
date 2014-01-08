@@ -1,6 +1,6 @@
 ﻿namespace TestFX
 {
-    public class TestFXResource
+    public static class TestFXResource
     {
         public static string GetTestFxResourceString()
         {
